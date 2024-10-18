@@ -33,7 +33,7 @@ def gen_markdown(file_list, result_file_name=Path('PaperList.md')):
             if title is not None:
                 result_file.write(f'**Title**: `{title}`\n\n')
             else:
-                result_file.write(f'**Title**: {file.name}\n\n')
+                result_file.write(f'**Title**: `{file.name}`\n\n')
             result_file.write(f'filepath: {file}\n\n')
             result_file.write(f'---\n\n')
 
