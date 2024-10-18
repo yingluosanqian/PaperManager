@@ -15,3 +15,39 @@ python paper_manager.py
 ```
 
 Then you can see `PaperList.md` generated, all of your pdf file informations in your current directory will be list in it.
+
+## Example
+
+For example, your directory looks like this:
+
+``` txt
+C:.
+    Inline Expansion When and How.pdf
+    PaperList.md
+    paper_manager.py
+    To Inline or Not to Inline Enhanced Inlining Decisions.pdf
+```
+
+After executing the shell, you could get an markdown file looks like below:
+
+``` markdown
+# Paper List
+
+The number of pdf file is **2**.
+
+Last updating time is `2024-10-18 23:58:51`.
+
+## Papers
+
+**Title**: `Inline Expansion When and How.pdf`
+
+filepath: Inline Expansion When and How.pdf
+
+---
+
+**Title**: `LNCS 2958 - To Inline or Not to Inline? Enhanced Inlining Decisions`
+
+filepath: To Inline or Not to Inline Enhanced Inlining Decisions.pdf
+
+---
+```
