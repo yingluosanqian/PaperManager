@@ -25,7 +25,7 @@ C:.
     Inline Expansion When and How.pdf
     PaperList.md
     paper_manager.py
-    To Inline or Not to Inline Enhanced Inlining Decisions.pdf
+    123456.pdf
 ```
 
 After executing the shell, you could get an markdown file looks like below:
@@ -47,7 +47,7 @@ filepath: Inline Expansion When and How.pdf
 
 **Title**: `LNCS 2958 - To Inline or Not to Inline? Enhanced Inlining Decisions`
 
-filepath: To Inline or Not to Inline Enhanced Inlining Decisions.pdf
+filepath: 123456.pdf
 
 ---
 ```
